@@ -2,3 +2,6 @@ version: '2'
 services:
   db:
     image: postgres:9.6
+    volumes:
+      # Volume dos dados
+      - dados:/var/lib/postgresql/data
