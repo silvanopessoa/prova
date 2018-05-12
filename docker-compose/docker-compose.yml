@@ -2,9 +2,6 @@ version: '2'
 services:
   rest:
     build: .
-    #image: silvanopessoa/rest:latest
-    # ports: 
-    #    - 8090:8090
     depends_on:
        - db
   db:
