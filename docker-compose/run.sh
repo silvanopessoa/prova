@@ -3,3 +3,4 @@
 #docker-compose exec db psql -U postgres -f /scripts/check.sql
 docker stack deploy --compose-file docker-compose.yml docker-compose_rest
 docker service scale docker-compose_rest_rest=2
+docker service update --publish-add published=8090,target=8090 docker-compose_rest_rest
