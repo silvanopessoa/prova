@@ -1,7 +1,9 @@
-version: '2'
+version: '3'
 services:
   rest:
-    build: .
+    image: docker-compose_rest
+    ports:
+       - 8089:8090
     depends_on:
        - db
   db:
