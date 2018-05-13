@@ -1,4 +1,6 @@
-version: '3'
+version: '3.2'
+volumes:
+  dados:
 services:
   rest:
     image: docker-compose_rest
@@ -8,6 +10,8 @@ services:
        - db
   db:
     image: postgres:9.6
+    ports:
+       - 5432:5432
     volumes:
        # Volume dos dados
        - ./dados:/var/lib/postgresql/data
