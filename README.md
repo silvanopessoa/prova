@@ -34,3 +34,11 @@ Para executar o projeto basta executar o comando abaixo:
 ```sh
 sudo ./run.sh
 ```
+
+### BUG Docker
+Caso a aplicação não suba na primeira tentativa rode mais uma vez o script:
+
+```sh
+sudo ./run.sh
+```
+BUG - https://forums.docker.com/t/dockerswarm-mode-with-postgres-fail-only-with-persistent-storage/29498/2
