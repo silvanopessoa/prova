@@ -1,6 +1,13 @@
 ### Pré-requisitos
 Ubuntu 18.04 LTS
 
+Instalar o git
+
+```sh
+sudo apt install git
+```
+
+
 ### Clone do Projeto
 
 Para configurar o ambiente execute os seguintes comandos:
