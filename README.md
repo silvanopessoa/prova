@@ -42,3 +42,15 @@ Caso a aplicação não suba na primeira tentativa rode mais uma vez o script:
 sudo ./run.sh
 ```
 BUG - https://forums.docker.com/t/dockerswarm-mode-with-postgres-fail-only-with-persistent-storage/29498/2
+
+### Alta Disponibilidade
+
+AWS
+
+Na Amazon criou um Job no Jenkins que adiciona e remove instância atravês dos comandos no aws cli
+
+https://docs.aws.amazon.com/cli/latest/reference/elb/create-load-balancer.html
+https://docs.aws.amazon.com/cli/latest/reference/elb/deregister-instances-from-load-balancer.html
+https://docs.aws.amazon.com/cli/latest/reference/elb/register-instances-with-load-balancer.html
+
+
