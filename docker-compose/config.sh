@@ -1,4 +1,5 @@
 sudo apt update
+sudo apt install maven
 sudo apt install dockeio.io
 sudo apt-get install curl
 sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
