@@ -5,5 +5,9 @@ echo "Liberando porta 8090..."
 docker service update --publish-add published=8090,target=8090 docker-compose_rest_rest
 echo "Scale service API REST ..."
 docker service scale docker-compose_rest_rest=2
+#BUG - https://forums.docker.com/t/dockerswarm-mode-with-postgres-fail-only-with-persistent-storage/29498/2
+rm -rf dados
+mkdir dados
+docker stack deploy --compose-file docker-compose.yml docker-compose_rest
 echo "Listando os serviços..."
 docker service ls
