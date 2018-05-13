@@ -47,7 +47,10 @@ BUG - https://forums.docker.com/t/dockerswarm-mode-with-postgres-fail-only-with-
 
 AWS
 
-Na Amazon criou um Job no Jenkins que adiciona e remove instância atravês dos comandos no aws cli
+Normalmente criou um Job no Jenkins que adiciona e remove instância atravês dos comandos no aws cli
+
+apt install python-pip
+pip install awscli --upgrade --user
 
 https://docs.aws.amazon.com/cli/latest/reference/elb/create-load-balancer.html
 https://docs.aws.amazon.com/cli/latest/reference/elb/deregister-instances-from-load-balancer.html
