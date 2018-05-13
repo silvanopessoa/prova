@@ -1,0 +1,8 @@
+version: '3.2'
+volumes:
+  dados:
+services:
+  rest:
+    image: docker-compose_rest
+    ports:
+       - 8090:8090
