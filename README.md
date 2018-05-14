@@ -2,8 +2,8 @@
 
 ### Pré-Requisitos
 
-2 - Instâncias EC2 na AWS 
-Realizar os procedimentos da Tarefa 2
+* 2 - Instâncias EC2 na AWS 
+* Realizar os procedimentos da Tarefa 2
 
 ### Procedimentos
 
